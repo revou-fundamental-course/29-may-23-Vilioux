@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hBNi37Vv)
+Perkenalkan, nama saya Yoga Dwi Pamungkas alias Vilioux. Saya telah membuat tugas ini sebagai bagian dari partisipasi saya dalam mini coding SEFC Revou. Website ini saya buat menggunakan bahasa pemrograman HTML, CSS, dan JavaScript.
+
+Mohon maaf jika terdapat keterbatasan dalam jumlah teks yang saya sampaikan.
+
+Btw Add ML aku ya: Blessing Vilioux, biar bisa mabar kitaa wkwk
+
+Terima kasih dan salam,
+Yoga Dwi Pamungkas (Vilioux) 

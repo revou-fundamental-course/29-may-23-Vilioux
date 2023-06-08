@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga Website</title>
+    <link rel="stylesheet" href="css/reset-css.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+  
+    <nav>
+      <div class="container">
+        <div class="nav-logo">
+          <a href="https://revou.co/" target="_blank">
+            <img src="img/revou.png" alt="RevoU" width="50" />
+          </a>
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="all-page/profile.html">Our Profile</a></li>
+            <li><a href="all-page/portofolio.html">Portofolio</a></li>
+            <li><a href="all-page/message.html">Message Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div class="header-judul">
+          <h1>Halo <span id="username"></span>, Welcome To Website</h1>
+          <p>Ini adalah website latihan pertama</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="headquarter">
+      <div class="container">
+        <div class="headquarter-judul">
+          <h1>Our Headquarter</h1>
+        </div>
+        <div class="headquarter-kota">
+          <div class="bulat">
+            <img src="img/mosque1.jpg" alt="kota 1" width="100" />
+            <p>Jakarta</p>
+          </div>
+          <div class="bulat">
+            <img src="img/mosque2.jpeg" alt="kota 1" width="100" />
+            <p>Bandung</p>
+          </div>
+          <div class="bulat">
+            <img src="img/mosque3.jpg" alt="kota 1" width="100" />
+            <p>Surabaya</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-copyright">
+          <p>&copy; Yoga D Pamungkas aka Vilioux</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      let userName = prompt("Masukkan nama Anda");
+      document.getElementById("username").innerText = userName;
+    </script>
+  </body>
 </html>
